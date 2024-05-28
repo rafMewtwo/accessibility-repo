@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility</title>
+</head>
+<body>
+	<button onclick="openAccessibleModal()">Abrir Modal Acessível</button>
+	<div
+		id="accessible-modal"
+		role="dialog"
+		aria-modal="true"
+		aria-labelledby="accessible-modal-title"
+		tabindex="-1"
+		style="display: none;"
+	>
+		<div role="document">
+			<h2 id="accessible-modal-title">Conteúdo da Modal Acessível</h2>
+			<p>Este é um exemplo de modal acessível.</p>
+			<button onclick="closeAccessibleModal()">Fechar</button>
+		</div>
+	</div>
+
+	<script>
+	function openAccessibleModal() {
+		const modal = document.getElementById('accessible-modal');
+		modal.style.display = 'block';
+		modal.focus();
+	}
+
+	function closeAccessibleModal() {
+		const modal = document.getElementById('accessible-modal');
+		modal.style.display = 'none';
+	}
+
+	document.addEventListener('keydown', function(event) {
+		const modal = document.getElementById('accessible-modal');
+		if (event.key === 'Escape') {
+			closeAccessibleModal();
+		}
+	});
+	</script>
+
+</body>
+</html>

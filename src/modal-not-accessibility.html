@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Acessibilidade</title>
+</head>
+<body>
+	<button onclick="openModal()">Abrir Modal</button>
+	<div id="modal" style="display: none;">
+		<div>
+			<h2>Conteúdo da Modal</h2>
+			<p>Este é um exemplo de modal não acessível.</p>
+			<button onclick="closeModal()">Fechar</button>
+		</div>
+	</div>
+	
+	<script>
+	function openModal() {
+		document.getElementById('modal').style.display = 'block';
+	}
+	
+	function closeModal() {
+		document.getElementById('modal').style.display = 'none';
+	}
+	</script>
+</body>
+</html>
