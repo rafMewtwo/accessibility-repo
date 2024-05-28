@@ -45,9 +45,13 @@ Atributos de Acessibilidade: A utilização adequada de atributos como aria-* é
 
 ### Componentes presente no repo
  - modal
+    https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/
  - checkbox
+    https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/
  - menu acordeon
+    https://www.w3.org/WAI/ARIA/apg/patterns/accordion/
  - radio button
+    https://www.w3.org/WAI/ARIA/apg/patterns/radio/
 
 ### testes
  - modal
