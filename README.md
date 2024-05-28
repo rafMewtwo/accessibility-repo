@@ -8,7 +8,7 @@
 ---
 
 ### semântica, estilos, atributos de acessibilidade
-Semântica Adequada: O uso correto de elementos HTML semânticos é crucial para garantir que a estrutura da página seja clara e compreensível para todos os usuários, incluindo leitores de tela. Isso inclui o uso apropriado de elementos como <header>, <nav>, <main>, <footer>, entre outros, para descrever corretamente a estrutura do conteúdo.
+Semântica Adequada: O uso correto de elementos HTML semânticos é crucial para garantir que a estrutura da página seja clara e compreensível para todos os usuários, incluindo leitores de tela. Isso inclui o uso apropriado de elementos como ``<header>, <nav>, <main>, <footer>``, entre outros, para descrever corretamente a estrutura do conteúdo.
 
 Estilos Acessíveis: Os estilos devem ser desenvolvidos de forma responsiva e com consideração às necessidades de acessibilidade. Isso inclui garantir um bom contraste entre cores de texto e fundo, fornecer tamanhos de fonte legíveis e permitir a navegação por teclado em todos os elementos interativos.
 
